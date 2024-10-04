@@ -30,8 +30,8 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 #
 # Add luci-app-amlogic
 #svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
-svn co https://github.com/Zxilly/UA2F.git package/UA2F
-svn co https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+svn co https://github.com/Zxilly/UA2F/trunk/UA2F package/UA2F
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
